@@ -1,0 +1,110 @@
+/*
+ First External CSS Stylesheet
+ */
+
+.header {
+color: black;
+font-style: inherit;
+font-family: inherit; 
+font-weight: bolder;
+padding: 0;  
+border: 0;
+margin: 0;
+/* vertical-align: middle; */
+font-size: 70px;
+/* float: left; */
+/* text-align: left; */ 
+position: absolute;
+left: 17%;
+top: 10%;
+} 
+  
+.header1 {
+color: rgb(216, 94, 27);
+font-style: inherit;
+font-family: inherit; 
+font-weight: bolder;
+text-decoration: underline;
+padding: 0;  
+border: 0;
+margin: 0;
+/* vertical-align: middle; */
+font-size: 70px;
+/* float: left; */
+/* text-align: left; */ 
+position: absolute;
+left: 17%;
+top: 18%;
+} 
+
+.header2 {
+color: rgb(0, 0, 0);
+font-style: inherit;
+font-family: inherit; 
+font-weight: bolder;
+padding: 0;  
+border: 0;
+margin: 0;
+/* vertical-align: middle; */
+font-size: 70px;
+/* float: left; */
+/* text-align: left; */ 
+position: absolute;
+left: 44%;
+top: 18%;
+}
+
+#fname {
+width: 400px;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+position: absolute;
+left: 5%;
+top: 40%;
+}
+
+.label {
+position: absolute;
+left: 5%;
+top: 32%;
+font-weight: bold;
+}
+
+.submit {
+position: absolute;
+left: 5%;
+top: 60%;
+background-color: rgb(30, 106, 228);
+color: white;
+border-radius: 22px;
+line-height: 2rem;
+width: 140px;
+}
+
+.image {
+position: absolute;
+right: 2%;
+top: 20%;
+}
+
+.img_background {
+position: absolute;
+left: 5%;
+top: 70%;
+}
+
+.button5 {border-radius: 22px;
+line-height: 2rem;
+}
+
+.img_background1 {
+position: absolute;
+left: 5%;
+top: 10%;
+}
