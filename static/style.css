@@ -79,7 +79,7 @@ font-weight: bold;
 .submit {
 position: absolute;
 left: 5%;
-top: 60%;
+top: 62%;
 background-color: rgb(30, 106, 228);
 color: white;
 border-radius: 22px;
@@ -93,11 +93,11 @@ right: 2%;
 top: 20%;
 }
 
-.img_background {
+/* .img_background {
 position: absolute;
 left: 5%;
 top: 70%;
-}
+} */
 
 .button5 {border-radius: 22px;
 line-height: 2rem;
@@ -323,4 +323,21 @@ color: #576071;
 font-style: normal;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 22px;
+}
+
+.results {
+    font-size: 100px;
+    color: #4d117e;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+
+}
+
+button {
+
+    position: absolute;
+    left: 5%;
+    top: 85%;
+
 }

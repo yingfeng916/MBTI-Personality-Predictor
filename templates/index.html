@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav class="navbar navbar-light" style="background-color:  rgb(255, 255, 255)">
-        <a class="navbar-brand" href="#">Personality Predictor</a>
+        <!-- <a class="navbar-brand" href="#">Personality Predictor</a> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,7 +44,7 @@
     <div class="container-fluid">
     </div>  
     <img class="image" style="float: right;" src="../static/Images/Personality_Types.JPG" height="650px" width="975px"/>
-    <img class="img_background" src="../static/Images/SnipImage.JPG" height="200px" width="350px"/>
+    <!-- <img class="img_background" src="../static/Images/SnipImage.JPG" height="200px" width="350px"/> -->
     <img class="img_background1" src="../static/Images/background.png" height="150px" width="150px"/>
 
 
@@ -66,12 +66,18 @@
       <p>
           <label class="label" for="text">Tell us something about yourself <br> and find out who you are and why you do things the way you do! </label>
           <p>{{ message }}</p>
+          <p class="results" >{{ test_e }} {{ test_s }} {{ test_t }} {{ test_j }}</p>
           <input class="submit" id="fname" type="text" name="text">
       </p>
-
       <p>
           <input class="submit" type="submit" value="Find out Now!">
       </p>
+        
+        {% if test_e %}
+        <button onclick="location.href='static/html/{{ test_e }}{{ test_s }}{{ test_t }}{{ test_j }}.html'" type="button">Learn More</button>
+        {% endif %}
+
+
   </form>
 
 </div>
