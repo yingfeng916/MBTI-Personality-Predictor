@@ -1,0 +1,550 @@
+/*
+ First External CSS Stylesheet
+ */
+ .navbar-nav {
+    opacity: 1;
+    position: absolute;
+    left: 2%;
+    background:white;
+    z-index: 100;
+ }
+
+.header {
+color: black;
+font-style: inherit;
+font-family: inherit; 
+font-weight: bolder;
+padding: 0;  
+border: 0;
+margin: 0;
+/* vertical-align: middle; */
+font-size: 70px;
+/* float: left; */
+/* text-align: left; */ 
+position: absolute;
+left: 17%;
+top: 10%;
+} 
+
+.header1 {
+color: rgb(216, 94, 27);
+font-style: inherit;
+font-family: inherit; 
+font-weight: bolder;
+text-decoration: underline;
+padding: 0;  
+border: 0;
+margin: 0;
+/* vertical-align: middle; */
+font-size: 70px;
+/* float: left; */
+/* text-align: left; */ 
+position: absolute;
+left: 17%;
+top: 18%;
+} 
+
+.header2 {
+color: rgb(0, 0, 0);
+font-style: inherit;
+font-family: inherit; 
+font-weight: bolder;
+padding: 0;  
+border: 0;
+margin: 0;
+/* vertical-align: middle; */
+font-size: 70px;
+/* float: left; */
+/* text-align: left; */ 
+position: absolute;
+left: 44%;
+top: 18%;
+}
+
+#fname {
+width: 400px;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+position: absolute;
+left: 5%;
+top: 40%;
+color: black;
+}
+
+.label {
+position: absolute;
+left: 5%;
+top: 32%;
+font-weight: bold;
+}
+
+.submit {
+position: absolute;
+left: 5%;
+top: 62%;
+background-color: rgb(30, 106, 228);
+color: white;
+border-radius: 22px;
+line-height: 2rem;
+width: 140px;
+}
+
+.image {
+position: absolute;
+right: 2%;
+top: 10%;
+}
+
+/* .img_background {
+position: absolute;
+left: 5%;
+top: 70%;
+} */
+
+.button5 {border-radius: 22px;
+line-height: 2rem;
+}
+
+.img_background1 {
+position: absolute;
+left: 5%;
+top: 10%;
+}
+
+.img1 {
+position: absolute;
+left: 0%;
+top: 10%;
+} 
+
+.e {
+    color: #ec5d0b;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 47%;
+    top: 5%;
+    }
+
+.i {
+    color: #277a9b;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 47%;
+    top: 5%;
+    }
+
+.s {
+    color: #256d13;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 54%;
+    top: 5%;
+    }
+.is {
+    color: #256d13;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 51.5%;
+    top: 5%;
+    }
+.en {
+    color: #f0c60d;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 54%;
+    top: 5%;
+    }
+
+.in {
+    color: #f0c60d;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 52%;
+    top: 5%;
+    }
+
+.t {
+    color: #0a228f;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    }
+.ist {
+    color: #0a228f;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 58%;
+    top: 5%;
+    }
+.ent {
+    color: #0a228f;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 62%;
+    top: 5%;
+    }
+.enf {
+    color: #df0404;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 62%;
+    top: 5%;
+        }
+.j {
+    color: #4d117e;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 66%;
+    top: 5%;
+    }
+
+.enfj {
+    color: #4d117e;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 67.5%;
+    top: 5%;
+    }
+.isfj {
+    color: #4d117e;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 64%;
+    top: 5%;
+    }
+.f {
+    color: #df0404;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 60%;
+    top: 5%;
+}
+
+.isf {
+    color: #df0404;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 58%;
+    top: 5%;
+}
+.p {
+    color: #7aa034;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 66%;
+    top: 5%;
+    }       
+.entp {
+    color: #7aa034;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 68.5%;
+    top: 5%;
+    }    
+.isfp {
+    color: #7aa034;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    padding: 0;  
+    border: 0;
+    margin: 0;
+    font-size: 140px;
+    position: absolute;
+    left: 65%;
+    top: 5%;
+    }  
+
+.paragraph {
+color: #576071;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 10px;  
+border: 10px;
+margin: 10px;
+font-size: 22px;
+position: absolute;
+left: 32%;
+top: 27%;   
+}
+
+.cop {
+color: #e9561b;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+text-decoration: underline;
+padding: 10px;  
+border: 10px;
+margin: 10px;
+font-size: 20px;
+position: absolute;
+left: 32%;
+top: 55%;    
+}
+
+ul {
+color: #576071;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 10px;  
+border: 10px;
+margin: 10px;
+font-size: 22px;
+position: absolute;
+left: 33%;
+top: 60%;  
+}
+
+.vline {
+border-left: 6px solid #576071; 
+height: 200px; 
+position: absolute;
+left: 53%;
+top: 60%;
+}
+
+.famous {
+color: #e9561b;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+text-decoration: underline;
+padding: 10px;  
+border: 10px;
+margin: 10px;
+font-size: 20px;
+position: absolute;
+left: 55%;
+top: 55%;  
+}
+
+.img2 {
+position: absolute;
+left: 57%;
+top: 63%;
+border-radius: 80px;
+border-color: black;
+border-style: solid;
+}
+
+.img3 {
+position: absolute;
+left: 70%;
+top: 63%;
+border-radius: 80px;
+border-color: black;
+border-style: solid;
+}
+
+.img4 {
+position: absolute;
+left:83%;
+top: 63%;
+border-radius: 80px;
+border-color: black;
+border-style: solid;
+}
+
+.img5 {
+position: absolute;
+left: 33%;
+top: 5%;   
+}
+
+.name2 {
+position: absolute;
+left: 57.5%;
+top: 85%;
+color: #576071;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 22px;
+}
+.jkrowling {
+    position: absolute;
+    left: 59%;
+    top: 85%;
+    color: #576071;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    }
+
+.name3 {
+position: absolute;
+left: 71.5%;
+top: 85%;
+color: #576071;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 22px;
+}
+.jrrtolkein {
+    position: absolute;
+    left: 71.5%;
+    top: 85%;
+    color: #576071;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    }
+    
+
+.name4 {
+position: absolute;
+left: 85%;
+top: 85%;
+color: #576071;
+font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 22px;
+}
+.wc {
+    position: absolute;
+    left: 81.5%;
+    top: 79%;
+    color: #576071;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    }
+
+.results {
+    font-size: 100px;
+    color: rgb(216, 94, 27);
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    font-style: inherit;
+    font-family: inherit; 
+    font-weight: bolder;
+
+}
+
+.learnmore {
+
+    position: absolute;
+    left: 23%;
+    top: 90%;
+    color: white;
+    background-color: rgb(216, 94, 27);
+
+}
+
+.message {
+    position: absolute;
+    left: 5%;
+    top: 70%; 
+    color: rgb(216, 94, 27);
+    font: 100px;
+}
