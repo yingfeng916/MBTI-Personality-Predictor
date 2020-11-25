@@ -1,6 +1,13 @@
 /*
  First External CSS Stylesheet
  */
+ .navbar-nav {
+    opacity: 1;
+    position: absolute;
+    left: 2%;
+    background:white;
+    z-index: 100;
+ }
 
 .header {
 color: black;
@@ -18,7 +25,6 @@ position: absolute;
 left: 17%;
 top: 10%;
 } 
-  
 .header1 {
 color: rgb(216, 94, 27);
 font-style: inherit;
@@ -67,6 +73,7 @@ resize: none;
 position: absolute;
 left: 5%;
 top: 40%;
+color: black;
 }
 
 .label {
@@ -90,7 +97,7 @@ width: 140px;
 .image {
 position: absolute;
 right: 2%;
-top: 20%;
+top: 10%;
 }
 
 /* .img_background {
@@ -366,7 +373,7 @@ margin: 10px;
 font-size: 22px;
 position: absolute;
 left: 32%;
-top: 25%;   
+top: 27%;   
 }
 
 .cop {
@@ -381,7 +388,7 @@ margin: 10px;
 font-size: 20px;
 position: absolute;
 left: 32%;
-top: 50%;    
+top: 55%;    
 }
 
 ul {
@@ -394,7 +401,7 @@ margin: 10px;
 font-size: 22px;
 position: absolute;
 left: 33%;
-top: 54%;  
+top: 60%;  
 }
 
 .vline {
@@ -402,7 +409,7 @@ border-left: 6px solid #576071;
 height: 200px; 
 position: absolute;
 left: 53%;
-top: 54%;
+top: 60%;
 }
 
 .famous {
@@ -417,13 +424,13 @@ margin: 10px;
 font-size: 20px;
 position: absolute;
 left: 55%;
-top: 50%;  
+top: 55%;  
 }
 
 .img2 {
 position: absolute;
-left: 55%;
-top: 57%;
+left: 57%;
+top: 63%;
 border-radius: 80px;
 border-color: black;
 border-style: solid;
@@ -431,8 +438,8 @@ border-style: solid;
 
 .img3 {
 position: absolute;
-left: 68%;
-top: 57%;
+left: 70%;
+top: 63%;
 border-radius: 80px;
 border-color: black;
 border-style: solid;
@@ -440,8 +447,8 @@ border-style: solid;
 
 .img4 {
 position: absolute;
-left: 81%;
-top: 57%;
+left:83%;
+top: 63%;
 border-radius: 80px;
 border-color: black;
 border-style: solid;
@@ -455,8 +462,8 @@ top: 5%;
 
 .name2 {
 position: absolute;
-left: 55%;
-top: 79%;
+left: 57.5%;
+top: 85%;
 color: #576071;
 font-style: normal;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -464,8 +471,8 @@ font-size: 22px;
 }
 .jkrowling {
     position: absolute;
-    left: 56.5%;
-    top: 79%;
+    left: 59%;
+    top: 85%;
     color: #576071;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -474,8 +481,8 @@ font-size: 22px;
 
 .name3 {
 position: absolute;
-left: 70%;
-top: 79%;
+left: 71.5%;
+top: 85%;
 color: #576071;
 font-style: normal;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -483,8 +490,8 @@ font-size: 22px;
 }
 .jrrtolkein {
     position: absolute;
-    left: 69%;
-    top: 79%;
+    left: 71.5%;
+    top: 85%;
     color: #576071;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -494,8 +501,8 @@ font-size: 22px;
 
 .name4 {
 position: absolute;
-left: 82.5%;
-top: 79%;
+left: 85%;
+top: 85%;
 color: #576071;
 font-style: normal;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -513,17 +520,30 @@ font-size: 22px;
 
 .results {
     font-size: 100px;
-    color: #4d117e;
+    color: rgb(216, 94, 27);
     position: absolute;
     left: 5%;
     top: 70%;
+    font-style: inherit;
+    font-family: inherit; 
+    font-weight: bolder;
 
 }
 
-button {
+.learnmore {
 
     position: absolute;
-    left: 5%;
-    top: 85%;
+    left: 23%;
+    top: 90%;
+    color: white;
+    background-color: rgb(216, 94, 27);
 
+}
+
+.message {
+    position: absolute;
+    left: 5%;
+    top: 70%; 
+    color: rgb(216, 94, 27);
+    font: 100px;
 }

@@ -20,22 +20,35 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
+        <a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>
+      <!-- </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Features</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Pricing</a>
-      </li>
+      </li> -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
+          Personality Types
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="static/html/ENFJ.html">ENFJ</a>
+          <a class="dropdown-item" href="static/html/ENFP.html">ENFP</a>
+          <a class="dropdown-item" href="static/html/ENTJ.html">ENTJ</a>
+          <a class="dropdown-item" href="static/html/ENTP.html">ENTP</a>
+          <a class="dropdown-item" href="static/html/ESTP.html">ESFJ</a>
+          <a class="dropdown-item" href="static/html/INFJ.html">ESTP</a>
+          <a class="dropdown-item" href="static/html/INFJ.html">INFJ</a>
+          <a class="dropdown-item" href="static/html/INFP.html">INFP</a>
+          <a class="dropdown-item" href="static/html/INTJ.html">INTJ</a>
+          <a class="dropdown-item" href="static/html/ISTJ.html">ISTJ</a>
+          <a class="dropdown-item" href="static/html/ISTP.html">ISTP</a>
+          <a class="dropdown-item" href="static/html/INTP.html">INTP</a>
+          <a class="dropdown-item" href="static/html/ISFJ.html">ISFJ</a>
+          <a class="dropdown-item" href="static/html/ISFP.html">ISFP</a>
+          <a class="dropdown-item" href="static/html/ESTJ.html">ESTJ</a>
+          <a class="dropdown-item" href="static/html/ESFP.html">ESFP</a>
         </div>
       </li>
     </ul>
@@ -65,7 +78,7 @@
     <form action="" method="post">
       <p>
           <label class="label" for="text">Tell us something about yourself <br> and find out who you are and why you do things the way you do! </label>
-          <p>{{ message }}</p>
+          <p class="message">{{ message }}</p>
           <p class="results" >{{ test_e }} {{ test_s }} {{ test_t }} {{ test_j }}</p>
           <input class="submit" id="fname" type="text" name="text">
       </p>
@@ -74,7 +87,7 @@
       </p>
         
         {% if test_e %}
-        <button onclick="location.href='static/html/{{ test_e }}{{ test_s }}{{ test_t }}{{ test_j }}.html'" type="button">Learn More</button>
+        <button class="learnmore" onclick="location.href='static/html/{{ test_e }}{{ test_s }}{{ test_t }}{{ test_j }}.html'" type="button">Learn More</button>
         {% endif %}
 
 

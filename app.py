@@ -138,7 +138,7 @@ def login():
                 j_result = "J"
 
         else: 
-            message = "Please tell us more about yourself"
+            message = "Please tell us more about yourself!"
         
 
     return render_template('index.html', message=message, test_e=e_result, test_s=s_result, test_t=t_result, test_j=j_result)
